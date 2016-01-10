@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{780C3448-B303-2045-5209-51C883195D38}") = "BaloonBlow", "Assembly-CSharp.csproj", "{09ACF870-4BD0-6E6F-2858-B1F8E0C7E6BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09ACF870-4BD0-6E6F-2858-B1F8E0C7E6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09ACF870-4BD0-6E6F-2858-B1F8E0C7E6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09ACF870-4BD0-6E6F-2858-B1F8E0C7E6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09ACF870-4BD0-6E6F-2858-B1F8E0C7E6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
