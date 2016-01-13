@@ -9,12 +9,12 @@ public class WindCircleController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		circleCollider = gameObject.GetComponent<CircleCollider2D>();
-		DestroyInterval = 3.0f;
+		DestroyInterval = 2.0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		circleCollider.radius += Time.deltaTime*2.0f;
+		circleCollider.radius += Time.deltaTime*4.0f;
 
 		DestroyInterval -= Time.deltaTime;
 		if(DestroyInterval < 0){
