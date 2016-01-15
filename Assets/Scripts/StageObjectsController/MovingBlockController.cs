@@ -51,13 +51,17 @@ public class MovingBlockController : MonoBehaviour {
 		}
 	}
 
-	void OnWillRenderObject(){
+	void OnBecameVisible(){
 		if(Camera.current.tag == "MainCamera"){
 			inCameraBool = true;
 			resetBool = true;
-		} else {
+		}
+	}
+
+	void OnBecameInvisible(){
+		//if(Camera.current.tag == "MainCamera"){
 			inCameraBool = false;
 			rb.velocity = Vector3.zero;
-		}
+		//}
 	}
 }

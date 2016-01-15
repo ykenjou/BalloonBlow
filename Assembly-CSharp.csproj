@@ -48,9 +48,15 @@
      <Compile Include="Assets\Scripts\BalloonController.cs" />
      <Compile Include="Assets\Scripts\BtnClickController.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\DropBlockController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
-     <Compile Include="Assets\Scripts\MovingBlockController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\BallThrowSpotController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\BulletController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\BulletSpotController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\DropBlockController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\MovingBlockController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\RollingBarController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\TargetBulletController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\ThrowBallController.cs" />
      <Compile Include="Assets\Scripts\TouchWindController.cs" />
      <Compile Include="Assets\Scripts\WindCircleController.cs" />
  <Reference Include="UnityEngine.UI">
