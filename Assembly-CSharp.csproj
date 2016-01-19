@@ -53,8 +53,10 @@
      <Compile Include="Assets\Scripts\StageObjectsController\BulletController.cs" />
      <Compile Include="Assets\Scripts\StageObjectsController\BulletSpotController.cs" />
      <Compile Include="Assets\Scripts\StageObjectsController\DropBlockController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\FireController.cs" />
      <Compile Include="Assets\Scripts\StageObjectsController\MovingBlockController.cs" />
      <Compile Include="Assets\Scripts\StageObjectsController\RollingBarController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\RotateBlockController.cs" />
      <Compile Include="Assets\Scripts\StageObjectsController\TargetBulletController.cs" />
      <Compile Include="Assets\Scripts\StageObjectsController\ThrowBallController.cs" />
      <Compile Include="Assets\Scripts\TouchWindController.cs" />

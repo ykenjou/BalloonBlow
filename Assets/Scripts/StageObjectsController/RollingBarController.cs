@@ -5,7 +5,7 @@ public class RollingBarController : MonoBehaviour {
 
 	bool inCameraBool;
 	bool resetBool;
-	int rotateSpeed;
+	public int rotateSpeed;
 
 	float rotateAngle;
 
@@ -19,7 +19,7 @@ public class RollingBarController : MonoBehaviour {
 	void Start () {
 		resetBool = false;
 		rotateAngle = 0.0f;
-		rotateSpeed = 20;
+		//rotateSpeed = 20;
 	}
 	
 	// Update is called once per frame
