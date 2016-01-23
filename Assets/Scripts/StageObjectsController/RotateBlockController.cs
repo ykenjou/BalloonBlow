@@ -4,22 +4,56 @@ using System.Collections;
 public class RotateBlockController : MonoBehaviour {
 
 
-	float speed;
-	float width;
-	float height;
+	public float speed;
+	public float width;
+	public float height;
+
+	float timeSum = 0f;
+
+	bool inCameraBool;
+	bool resetBool;
+
+	Vector3 startPosition;
+
+	GameController gameController;
+
+	void Awake(){
+		gameController = GameController.GetController();
+	}
 
 	// Use this for initialization
 	void Start () {
-		speed = 1f;
-		width = 2f;
-		height = 1f;
+		startPosition = transform.position;
+		resetBool = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		float x = Mathf.Cos(Time.time * speed) * width;
-		float y = Mathf.Sin(Time.time * speed) * height;
-		float z = 0f;
-		transform.position = new Vector3(x,y,z);
+		if(gameController.gameResetBool){
+			if(resetBool){
+				transform.position = startPosition;
+				resetBool = false;
+				timeSum = 0f;
+			}
+		} else {
+			if(inCameraBool && gameController.gamePlayBool){
+				timeSum += Time.deltaTime;
+				float x = Mathf.Cos(timeSum * speed) * width + startPosition.x;
+				float y = Mathf.Sin(timeSum * speed) * height + startPosition.y;
+				float z = 0f;
+				transform.position = new Vector3(x,y,z);	
+			}
+		}
+	}
+
+	void OnBecameVisible(){
+		if(Camera.current.tag == "MainCamera"){
+			inCameraBool = true;
+			resetBool = true;
+		}
+	}
+
+	void OnBecameInvisible(){
+		inCameraBool = false;
 	}
 }

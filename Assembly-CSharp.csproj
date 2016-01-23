@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\StageObjectsController\RotateBlockController.cs" />
      <Compile Include="Assets\Scripts\StageObjectsController\TargetBulletController.cs" />
      <Compile Include="Assets\Scripts\StageObjectsController\ThrowBallController.cs" />
+     <Compile Include="Assets\Scripts\StageObjectsController\VerticalMovingController.cs" />
      <Compile Include="Assets\Scripts\TouchWindController.cs" />
      <Compile Include="Assets\Scripts\WindCircleController.cs" />
  <Reference Include="UnityEngine.UI">

@@ -14,6 +14,7 @@ public class BulletSpotController : MonoBehaviour {
 	GameController gameController;
 
 	public float speedRate;
+	public float speedX = -1.0f;
 
 	void Awake(){
 		gameController = GameController.GetController();

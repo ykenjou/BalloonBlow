@@ -56,6 +56,7 @@ public class BalloonController : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
+
 		if(other.tag == "Coin"){
 			gameController.coinCount++;
 			other.gameObject.SetActive(false);
