@@ -1,15 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StageObjectsController/VerticalMovingController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BalloonController.cs">
     <Files>
+      <File FileName="Assets/Scripts/GameController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/WindCircleController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BalloonController.cs" Line="37" Column="51" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BalloonController.cs" Line="39" Column="35" />
       <File FileName="Assets/Scripts/BtnClickController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/StageObjectsController/RollingBarController.cs" Line="36" Column="5" />
-      <File FileName="Assets/Scripts/StageObjectsController/MovingBlockController.cs" Line="51" Column="4" />
-      <File FileName="Assets/Scripts/StageObjectsController/VerticalMovingController.cs" Line="47" Column="66" />
+      <File FileName="Assets/Scripts/StageObjectsController/RollingBarController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StageObjectsController/MovingBlockController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StageObjectsController/VerticalMovingController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
